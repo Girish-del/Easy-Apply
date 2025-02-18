@@ -1,0 +1,65 @@
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+
+# Maven and Gradle build directories
+target/
+!target/classes/
+!target/maven-archiver/
+!target/maven-status/
+
+build/
+
+# IDE specific files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse specific files
+*.classpath
+*.project
+*.settings/
+
+# VS Code specific files
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Java and Spring Boot specific files
+*.war
+*.jar
+
+# Environment variable files
+.env
+
+# Application-specific
+application.properties
+application.yml
+application-dev.properties
+application-prod.properties
+
+# Lombok generated files
+.lombok/
+
+# User-specific files
+*.swp
+*.swo
+
+# Docker and Kubernetes
+*.log
+*.pid
+
+# Dependency directories
+node_modules/
+
+# Database files
+*.db
+*.sqlite
